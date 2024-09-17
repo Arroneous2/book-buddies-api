@@ -1,0 +1,10 @@
+json.id book.id
+json.title book.title
+json.subtitle book.subtitle
+json.author book.author
+json.pages book.pages
+json.published_date book.published_date
+json.description book.description
+json.publisher book.publisher
+json.image_link book.image_link
+json.self_link book.self_link
