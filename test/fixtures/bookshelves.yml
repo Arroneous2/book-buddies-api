@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: MyString
+  rating: 1
+  book_location: MyString
+  format: MyString
+
+two:
+  status: MyString
+  rating: 1
+  book_location: MyString
+  format: MyString
