@@ -14,6 +14,11 @@ Rails.application.routes.draw do
   get "/books/:id" => "books#show"
   post "/books" => "books#create"
 
+  get "/bookshelves" => "bookshelves#index"
+  get "/bookshelves/:id" => "bookshelves#show"
+  post "/bookshelves" => "bookshelves#create"
+  patch "/bookshelves/:id" => "bookshelves#update"
+
 
   # Defines the root path route ("/")
   # root "posts#index"
