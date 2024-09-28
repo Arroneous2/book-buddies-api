@@ -5,4 +5,4 @@ json.book_location bookshelf.book_location
 json.format_type bookshelf.format_type
 json.book bookshelf.book
 json.book_id bookshelf.book_id
-json.user_id bookshelf.id
+json.user_id bookshelf.user_id

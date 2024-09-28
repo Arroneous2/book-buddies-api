@@ -6,6 +6,11 @@ class BookshelvesController < ApplicationController
     render :index
   end
 
+  def user_index
+    @bookshelves = Bookshelf.where(user_id: params[:user_id])
+    render :index
+  end
+
   def show
     @bookshelf = Bookshelf.find_by(id: params[:id])
     render :show    

@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   post "/books" => "books#create"
 
   get "/bookshelves" => "bookshelves#index"
+  get "bookshelf/:user_id" => "bookshelves#user_index"
   get "/bookshelves/:id" => "bookshelves#show"
   post "/bookshelves" => "bookshelves#create"
   patch "/bookshelves/:id" => "bookshelves#update"
