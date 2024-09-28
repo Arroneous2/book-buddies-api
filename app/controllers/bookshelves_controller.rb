@@ -2,7 +2,7 @@ class BookshelvesController < ApplicationController
   before_action :authenticate_user
 
   def index
-    @bookshelves = Bookshelf.where(id: current_user.id)
+    @bookshelves = Bookshelf.where(user_id: current_user.id)
     render :index
   end
 
